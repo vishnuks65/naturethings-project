@@ -1,0 +1,28 @@
+.category-header{
+    margin-top: 15px;
+}
+.nav-category-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+.nav-category-item{
+    font-size: 12px;
+    font-family: sans-serif;
+    background-color:lavender;
+    margin-bottom: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    color: indigo;
+}
+.nav-category-item{
+    text-decoration: none;
+}
+@media screen and (min-width: 768px){
+        .nav-category-menu{
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+}
